@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <lang="pt-br">
+        <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Voe Heap</title>
+        <!-- Site produzido por Fabiola, trabalho de Algoritmos e Estrutura de dados 2, Heap Fly-->
+        <link rel="stylesheet" href="../tailwind.css">
+        <!-- Plano B caso o Cli do TailwindCss não funcione -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="min-h-screen flex flex-col">
+        <header>
+            <div class="bg-sky-700 text-white shadow-lg p-3 w-full flex">
+                <div class="text-xl font-bold py-2 px-30">
+                     <a href="index.html" class="px-4 hover:text-shadow-lg">Voe Heap</a></li>
+                </div>
+                <div class="items-center flex justify-end flex-1">
+                    <nav class="flex-1">
+                        <ul class="flex justify-end flex-1 gap-6 text-lg flex">
+                            <li><a href="index.html" class="px-4 hover:text-shadow-lg">Programa Principal</a></li>
+                            <li><a href="paginas/relatorio.html" class="px-4 hover:text-shadow-lg">Relatório</a></li>
+                            <li><a href="paginas/log.html" class="px-4 hover:text-shadow-lg">Log de Execução</a></li>
+                            <li><a href="" class="px-4 hover:text-shadow-lg">Sobre</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+        </header>
+        <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto my-6">
+                <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                
+            
+                <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                
+             
+                <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                
+            
+                <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+               
+            
+                    <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                    
+                
+                 
+                    <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                    
+                 
+                    <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                    
+                
+                    <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                    
+                
+                    <button onclick="cliqueBotao()" class="bg-sky-900 flex hover:bg-sky-950 text-white font-bold py-2 px-4 rounded">Executar Função em C</button>
+                       
+                 </div>
+        <div class="relative flex flex-col max-w-2xl h-full m-auto justify-center items-center overflow-scroll text-white bg-gray-900 shadow-md rounded-xl border border-slate-300">
+                <table class="w-full text-left table-auto min-w-max border-collapse">
+                    <thead>
+                    <tr>
+                        <th class="p-4 bg-sky-950 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-none text-slate-200 opacity-70">
+                            Nome
+                        </p>
+                        </th>
+                        <th class="p-4 bg-sky-950 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-none text-slate-200 opacity-70">
+                            Número de prioridade
+                        </p>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            John Michael
+                        </p>
+                        </td>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            10
+                        </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            Alexa Liras
+                        </p>
+                        </td>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            12
+                        </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            Laurent Perrier
+                        </p>
+                        </td>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            3
+                        </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            Michael Levi
+                        </p>
+                        </td>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            6
+                        </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            Richard Gran
+                        </p>
+                        </td>
+                        <td class="p-4 border border-slate-600">
+                        <p class="block font-sans text-sm antialiased font-normal leading-normal text-white">
+                            9
+                        </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+</div>
+    <!-- Carrega o script gerado pelo Emscripten -->
+    <script src="../heap.js"></script>
+    <script>
+       function cliqueBotao() {
+            // Se a sua função em C foi exportada como 'encontrar_maior' ou similar:
+            // Lembre-se que o Emscripten expõe com um sublinhado na frente: _encontrar_maior
+            if (typeof _encontrar_maior === 'function') {
+                console.log("A função do C está pronta para ser chamada!");
+            } else {
+                console.log("A função ainda não foi carregada ou o nome difere.");
+            }
+        }
+    </script>
+       
+    </body>
+</html>
